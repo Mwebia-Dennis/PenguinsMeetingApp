@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:hint="@string/username"
+        android:id="@+id/userName"
+        android:inputType="text"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="no" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:hint="@string/meeting_number"
+        android:id="@+id/meetingNo"
+        android:inputType="number"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="no" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:hint="@string/meeting_password"
+        android:id="@+id/meetingPassword"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:autofillHints="no" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_meeting"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:background="@color/design_default_color_primary"
+        android:textColor="@color/white"
+        android:id="@+id/submit"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>

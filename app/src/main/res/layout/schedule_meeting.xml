@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:hint="@string/topic"
+        android:id="@+id/topic"
+        android:inputType="text"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="no" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:hint="@string/start_date"
+        android:id="@+id/startDate"
+        android:textSize="18sp"
+        android:background="@color/design_default_color_primary"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:hint="@string/start_time"
+        android:id="@+id/startTime"
+        android:textSize="18sp"
+        android:background="@color/design_default_color_primary"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:hint="@string/duration"
+        android:id="@+id/duration"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:autofillHints="no" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/schedule_meeting"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:background="@color/design_default_color_primary"
+        android:textColor="@color/white"
+        android:id="@+id/submit"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>

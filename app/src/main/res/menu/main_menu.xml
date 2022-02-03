@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/scheduleMeeting"
+        android:title="@string/schedule_meeting"
+        android:icon="@android:drawable/presence_video_online"
+        app:showAsAction="never"
+        />
+
+
+</menu>

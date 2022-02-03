@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PenguinsMeetingApp</string>
+    <string name="create_meeting">Create Meeting</string>
+    <string name="create_or_join_a_meeting_to_continue">Create or Join A meeting to continue</string>
+    <string name="username">UserName</string>
+    <string name="meeting_number">Meeting Number</string>
+    <string name="meeting_password">Meeting password</string>
+    <string name="schedule_meeting">Schedule Meeting</string>
+    <string name="duration">Duration In Minutes</string>
+    <string name="start_time">Start Time</string>
+    <string name="start_date">Start Date</string>
+    <string name="topic">Topic</string>
+    <string name="start_url">Start Url</string>
+    <string name="join_url">Join Url</string>
+    <string name="join_meeting">Join Meeting</string>
+    <string name="start_meeting">Start Meeting</string>
+    <string name="meeting_id">Meeting Id</string>
+</resources>
